@@ -12,4 +12,4 @@ income = value * rate
 for i in range(1, year):
     income = income * rate
 
-print (income)
+print (f'You would have {income} in {year} years')
